@@ -1,0 +1,424 @@
+body{
+    margin:0;
+    padding:0;
+    font-size:15px;
+    color:black;
+    line-height:2;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin:0 auto;
+    background-image: url("images/background.jpg");
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+header{
+    height:140px;
+    width:100%;
+    background: linear-gradient(-135deg,#FF97C2,#FFEEFF,#FF97C2);
+    box-shadow: 2px 2px 4px gray;
+    margin:0 auto;
+}
+
+#heading{
+    width:960px;
+    margin:0 auto;
+}
+
+#logo{
+    float:left;
+    margin-top: 50px;
+}
+
+.global-nav{
+    float:right;
+    margin-top:60px;
+}
+
+.global-nav li{
+    float:left;
+    margin:0px 20px;
+    list-style: none;
+}
+
+.global-nav li a{
+    color:black;
+    font-size:20px;
+    text-decoration: none;
+}
+
+.table-nav{
+    padding: 0;
+    display: flex;
+    margin-bottom:60px;
+}
+
+.table-nav li{
+    width:15%;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.table-nav li a{
+    color:black;
+    font-size:16px;
+    text-decoration: none;
+}
+
+.table-nav li{
+    font-size: 16px;
+}
+
+
+.nav-under{
+    border-bottom: 3px solid black;
+    padding-bottom: 2px;
+}
+
+
+.global-nav li a:hover{
+    border-bottom: 3px solid black;
+    padding-bottom: 2px;
+}
+
+.table-nav li a:hover{
+    border-bottom: 3px solid black;
+    padding-bottom: 2px;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.thin{
+    opacity: 0.6;
+    font-size:20px;
+    font-weight: bold;
+}
+
+main{
+    width:960px;
+    margin:0 auto;
+    padding-bottom:80px;
+
+}
+
+h1{
+    font-size: 36px;
+    text-align:center;
+    margin-top:0;
+    padding:20px 0;
+}
+
+.heading{
+    margin-top: 0;
+}
+
+
+#top-image img{
+    display:block;
+    margin:0 auto;
+    width:400px;
+    height:400px;
+}
+
+h2{
+    font-size:24px;
+    margin:60px 0 20px 20px;
+}
+
+.under{
+    background: linear-gradient(transparent 60%, #FF99FF 60%);
+}
+
+#notice{
+    padding:0 10px;
+    margin:0 50px;
+    background-color: #CCFFFF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+dl{
+    border-bottom:dotted;
+    border-color:black;
+    border-width:1px;
+    margin:0 30px;
+}
+
+dt{
+    margin:10px;
+}
+
+#list{
+    margin:0 50px;
+    display:flex;
+}
+
+#table{
+    margin-bottom: 0;
+}
+
+.season{
+    flex:auto;
+    text-align: center;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration:none;
+    background-color: #CCFFFF;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.season-thin{
+    opacity: 0.6;
+}
+
+#list p{
+    color:black;
+    font-size:20px;
+    margin:5px 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.table-image{
+    margin-top: 10px;
+}
+
+footer{
+    height:auto;
+    width:auto;
+    background-color: #dfe2e6;
+    box-shadow: 2px 2px 2px 3px gray;
+}
+
+#footing{
+    text-align: center;
+}
+
+footer ul{
+    margin:0;
+    padding-top:20px;
+}
+
+
+footer li{
+    display: inline-block;
+    margin:10px 20px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+#profile-image{
+    display: block;
+    margin:0 auto;
+    width:250px;
+    height:250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding:0;
+    box-shadow: 2px  2px 2px gray;
+}
+
+#favorite-anime{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 0;
+}
+
+#favorite-anime ul{
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size:18px;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 0;
+}
+
+h4{
+    font-size: 15px;
+    text-align: center;
+    margin:5px;
+}
+
+.profile-part{
+    padding:0 20px;
+    margin:0 150px 50px 150px;
+    background-color: #CCFFFF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.under2{
+    background: linear-gradient(transparent 60%,#BAD3FF	60%);
+}
+
+#twitter{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*画面サイズが600px以下の場合の適用*/
+
+@media(max-width:960px){
+
+}
+
+@media screen and (max-width:600px){
+
+
+    header {
+        width: auto;
+        height: 20%;
+      }
+
+    #heading{
+          width: auto;
+      }
+    
+    #logo {
+        float: none;
+        margin-top: 0px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    #logo img {
+        width: 50%;
+    }
+    
+      .global-nav {
+        float: none;
+        margin-top: 0.5vw;
+        text-align: center;
+        padding:0;
+      }
+    
+      .global-nav li {
+        display: inline;
+        float: none;
+        margin: 0 5px;
+        font-size: 10px;
+      }
+
+      .global-nav li a{
+        display: inline;
+        float: none;
+        margin: 0 5px;
+        font-size:10px;
+      }
+
+    main{
+        width:auto;
+    }
+
+    h1{
+        margin-top:30px;
+        text-align:center;
+        font-size:5vw;
+    }
+
+    #top-image img{
+        width:75%;
+        height:75%;
+    }
+
+    h2{
+        font-size: 5vw;
+        margin-top:30px;
+    }
+
+    #notice{
+        padding:0 10px;
+        margin:0 5%;
+        font-size: 3vw;
+    }
+
+    dl{
+        margin:0 5%;
+    }
+
+    #list{
+        margin:0 2%;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .season{
+        margin:10px;
+    }
+    
+    #footing{
+        text-align: center;
+    }
+    
+    footer ul{
+        margin:0;
+        margin:0 auto;
+        padding:10px 0;
+    }
+    
+    
+    footer li{
+        text-align: center;
+    }
+
+    .table-nav li a{
+        color:black;
+        font-size:1vw;
+        text-decoration: none;
+    }
+    
+    .table-nav li{
+        font-size:8px;
+    }
+
+    .table-nav{
+        margin-bottom:30px;
+        margin-left:5%;
+    }
+    
+    .table-nav li{
+        width:20%;
+        text-align: left;
+    }
+
+    #table{
+        width: auto;
+    }
+
+    #table img{
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile-part{
+        margin:0 5%;
+    }
+
+    #profile-image{
+        width:50%;
+        height: 50%;
+    }
+
+    .profile-part li{
+        font-size: 3vw;
+    }
+
+    h3{
+        font-size: 3vw;
+    }
+
+    h4{
+        font-size: 3vw;
+    }
+}
